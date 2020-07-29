@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1em;
+    font-family: Helvetica;
+    background-color: rgb(238, 210, 99);
+}
+header {
+    width: 100%;
+    background-color: teal;
+    padding-bottom: 60px;
+}
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 3%;
+}
+header {
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.pink {
+    background-color: pink;
+}
+section {
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(189, 185, 185);
+    line-height: 20px;
+    margin: 1%;
+}
+section h3 {
+    width: fit-content;
+    position: relative;
+    text-align: right;
+    border: 1px solid black;
+    top: 0;
+    float: right;
+    
+
+}
+section p {
+    clear: both;
+    padding-top: 10px;
+    color: black;
+    font-size: 1.2em;
+}
+
+/* Tablet Menue */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .first {
+        width: 45%;
+    }
+    .second {
+        width: 45%;
+        
+    }
+    .third {
+        width: 95%;
+        display: block;
+    }
+}
+
+/* Mobile Menue */ 
+@media only screen and (max-width: 767px) {
+    section {
+        position: relative;
+        display: block;
+        flex-direction: column;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
